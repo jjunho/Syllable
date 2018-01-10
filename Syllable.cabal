@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 1dafeca7616aa8f47ac00635da7d3435bfed6b30c34365f729e98ae1f279aae3
+-- hash: 6ca034cb779638670afecde4c9e9a8c9c7dee5c7475284520bdc9229c73ffc4f
 
 name:           Syllable
 version:        0.1.0.0
@@ -60,6 +60,8 @@ test-suite Syllable-test
   build-depends:
       Syllable
     , base >=4.7 && <5
+    , hspec >2
   other-modules:
+      Syllable.PortSpec
       Paths_Syllable
   default-language: Haskell2010
