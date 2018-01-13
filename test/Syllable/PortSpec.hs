@@ -39,3 +39,5 @@ spec =
         strSyllables "Piauí" `shouldBe` "Pi au í"
     it "transclínico" $
         strSyllables "transclínico" `shouldBe` "trans clí ni co"
+    it "pterodáctilo" $
+        strSyllables "pterodáctilo" `shouldBe` "pte ro dác ti lo"

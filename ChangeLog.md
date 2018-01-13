@@ -3,8 +3,13 @@
 ## [Unreleased changes]
 - Use `overloaded strings`
 - Syllabify the words of a file piped from `stdin` in the command line
-- Write tests for the library
 - Write haddock documentation
+
+## [0.1.0.1] - 2018-01-13
+### Added
+- Fix for words beginning in 2 consonants that are not a cluster (mnemônico, pterodáctilo)
+- Rules for upper case letters
+- Tests for the library
 
 ## [0.1.0.0] - 2018-01-10
 ### Added

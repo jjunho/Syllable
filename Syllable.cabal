@@ -2,10 +2,10 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 6ca034cb779638670afecde4c9e9a8c9c7dee5c7475284520bdc9229c73ffc4f
+-- hash: 17e46d381ce1357ffa74aa6a976d01c16709e4b855af2fa34cb2f069c076f65d
 
 name:           Syllable
-version:        0.1.0.0
+version:        0.1.0.1
 synopsis:       Syllabification in Portuguese
 description:    Please see the README on Github at <https://github.com/jjunho/Syllable#readme>
 category:       Natural Language Processing
